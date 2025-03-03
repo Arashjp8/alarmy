@@ -6,11 +6,15 @@ export default function TabLayout() {
     return (
         <Tabs
             screenOptions={{
-                headerStyle: tw.style("bg-slate-900"),
+                headerStyle: tw.style(
+                    "bg-slate-900 border-b-[1px] ] border-white",
+                ),
                 headerTintColor: tw.color("white"),
                 headerShadowVisible: false,
                 headerTitleAlign: "center",
-                tabBarStyle: tw.style("bg-slate-900"),
+                tabBarStyle: tw.style(
+                    "bg-slate-900 border-t-[1px] border-white",
+                ),
                 tabBarActiveTintColor: tw.color("white"),
             }}
         >
